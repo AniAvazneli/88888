@@ -1,11 +1,13 @@
 import './App.css'
-import { Login } from './components/login'
+// import { Login } from './components/login'
+import Sarchevi from './components/Dashboard/Sarchevi'
 
 function App() {
 
   return (
     <>
-    <Login/>
+    {/* <Login/> */}
+    <Sarchevi/>
     </>
   )
 }
